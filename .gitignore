@@ -1,0 +1,255 @@
+# ============================================================
+# OS / TEMPORALES GENERALES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*~
+.cache/
+tmp/
+temp/
+
+
+# ============================================================
+# ANGULAR / NODE.JS / NPM / YARN
+# ============================================================
+
+node_modules/
+
+dist/
+out-tsc/
+.angular/
+.angular/cache/
+
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.pnpm-store/
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+*.tsbuildinfo
+
+
+# ============================================================
+# JAVA
+# ============================================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java compiled
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs / JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Tests / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Type checking / linting
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python environment
+.python-version
+
+
+# ============================================================
+# VISUAL STUDIO CODE
+# ============================================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.code-workspace
+
+# VS Code temporary/history
+.history/
+.vscode-test/
+
+
+# ============================================================
+# CODEX / AGENTES IA
+# ============================================================
+
+# Estado local / configuración privada de Codex
+.codex/
+.codex-cache/
+.codex-tmp/
+.codex-temp/
+
+# Directorios de ejecución de agentes
+.agents/cache/
+.agents/tmp/
+.agents/temp/
+.agents/logs/
+.agents/runs/
+.agents/sessions/
+
+# Workspaces / estados temporales de agentes
+.agent-cache/
+.agent-tmp/
+.agent-state/
+.agent-sessions/
+
+# Logs generados por agentes
+codex.log
+codex-*.log
+agent.log
+agent-*.log
+
+# Scratch / outputs temporales
+scratch/
+.scratch/
+
+
+# ============================================================
+# INTELLIJ IDEA
+# ============================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ============================================================
+# ECLIPSE / STS
+# ============================================================
+
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache/
+
+
+# ============================================================
+# SECRETS / CREDENCIALES
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+secrets/
+credentials/
+
+
+# ============================================================
+# DOCKER / LOCAL
+# ============================================================
+
+docker-compose.override.yml
+
+# Volúmenes locales que no deben versionarse
+docker-data/
+data/
+logs/
+
+
+# ============================================================
+# LOGS
+# ============================================================
+
+logs/
+*.log
+*.log.*
