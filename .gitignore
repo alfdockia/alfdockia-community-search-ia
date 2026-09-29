@@ -177,6 +177,8 @@ coverage.xml
 .agents/logs/
 .agents/runs/
 .agents/sessions/
+.agents/
+docs/
 
 # Workspaces / estados temporales de agentes
 .agent-cache/
@@ -193,6 +195,7 @@ agent-*.log
 # Scratch / outputs temporales
 scratch/
 .scratch/
+AGENTS.md
 
 
 # ============================================================
